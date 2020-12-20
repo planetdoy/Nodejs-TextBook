@@ -1,0 +1,15 @@
+- npm audit fix
+- npm outdated
+- npm unintall
+- npm search
+- npm info
+- npm adduser
+- npm whoami
+- npm logout
+- npm version
+    ex)
+        npm version 5.3.2, npm version minor
+- npm deprecate [패키지명] [버전] [메세지]
+- npm publish
+- npm unpublish
+- npm ci
