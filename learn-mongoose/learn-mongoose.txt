@@ -1,0 +1,15 @@
+몽구스는 MySQL의 시퀄라이즈와 달리 ODM 이다.
+relational이 아니라 document를 사용하기 때문이다.
+Object Document Mapping
+
+우선 스키마라는 것이 생겼습니다.
+몽구스는 몽고디비에 데이터를 넣기 전에 노드 서버 단에서
+데이터를 한 번 필터링하는 역할을 합니다.
+또한 MySQL에 있는 JOIN의 기능을 populate라는 메서드로 보완합니다.
+
+ES6 프로미스 문법과 강력하고 가독성이 높은 쿼리 빌더를 지원하는 것도 장점입니다.
+
+몽고디비는 주소를 사용해 연결합니다.
+mongodb://[username:password@]host[:port][/[database][?options]]와 같다
+[]부분은 있어도 되고 없어도 됩니다.
+
